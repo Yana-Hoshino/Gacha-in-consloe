@@ -21,7 +21,7 @@ int main()
 
 		}
 		else if (loop == '2')
-		{ 
+		{
 			chouka.GACHA(1);
 		}
 		else if (loop == '3')
@@ -34,7 +34,7 @@ int main()
 		else if (loop == '4')
 		{
 			chouka.reset();
-		}
+		} 
 	}
 		return 0;
 }
