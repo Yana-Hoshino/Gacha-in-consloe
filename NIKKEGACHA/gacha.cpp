@@ -65,7 +65,7 @@ int gacha::ShowDATE()
 	unsigned int OSSR = _SSR;
 	unsigned int OSR = _SR;
 	unsigned int ON = _N;
-	std::cout << "Libiary" << std::endl;
+	std::cout << "Library" << std::endl;
 	std::cout << "SSR = " << OSSR << std::endl << "SR = " << OSR << std::endl << "N = " << ON << std::endl;
 	std::cout << "You have already gacha " << AllGachaTimes << " times." << std::endl << std::endl;
 	return 0;
