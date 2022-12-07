@@ -12,7 +12,7 @@ int main()
 	while (loop != '5')
 	{
 		introduce::Hintroduce();
-		Data.OutData();
+		IOData::OutData();
 		loop = Mselect.Cselect();
 		std::system("cls");
 		Mselect.Cchoose(loop);
