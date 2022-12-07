@@ -2,6 +2,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+#include "IOData.h"
 unsigned long int AllGachaTimes = 0;
 unsigned int SSR = 0;
 unsigned int SR = 0;
@@ -21,25 +22,8 @@ int gacha::GACHA(unsigned int times)
 		}
 		AllGachaTimes++;
 	}
-	InDATE(SSR, SR, N);
-	SSR = SR = N = 0;
-	return 0;
-}
-
-int gacha::InDATE(int SSR, int SR, int N) 
-{
-	_SSR += SSR;
-	_SR += SR;
-	_N += N;
-	return 0;
-}
-
-int gacha::reset()
-{
-	_SSR = 0;
-	_SR = 0;
-	_N = 0;
-	AllGachaTimes = 0;
+	IOData::InData(SSR, SR, N, AllGachaTimes);
+	SSR = SR = N = AllGachaTimes = 0;
 	return 0;
 }
 
@@ -60,13 +44,3 @@ int gacha::RareCheck(int UserRare)
 	return 0;
 }
 
-int gacha::ShowDATE()
-{
-	unsigned int OSSR = _SSR;
-	unsigned int OSR = _SR;
-	unsigned int ON = _N;
-	std::cout << "Library" << std::endl;
-	std::cout << "SSR = " << OSSR << std::endl << "SR = " << OSR << std::endl << "N = " << ON << std::endl;
-	std::cout << "You have already gacha " << AllGachaTimes << " times." << std::endl << std::endl;
-	return 0;
-}

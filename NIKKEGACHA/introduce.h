@@ -1,5 +1,5 @@
 #pragma once
-class Hintroduce {
+class introduce {
 public:
-	 int introduce();
+	 static int Hintroduce();
 };

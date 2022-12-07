@@ -131,11 +131,13 @@
     <ClCompile Include="introduce.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="select.cpp" />
+    <ClCompile Include="IOData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gacha.h" />
     <ClInclude Include="introduce.h" />
     <ClInclude Include="select.h" />
+    <ClInclude Include="IOData.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
