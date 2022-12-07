@@ -2,6 +2,7 @@
 class select
 {
 public:
-	int Cselect();
+	static int Cselect();
+	int Cchoose(char loop);
 };
 

@@ -27,6 +27,9 @@
     <ClCompile Include="select.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="IOData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gacha.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="select.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IOData.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -4,7 +4,7 @@ using namespace std;
 string open = "This is a Nikke Gacha Simulator in console.\n";
 char select = NULL;
 
-int Hintroduce::introduce()
+int introduce::Hintroduce()
 {
 	cout << open;
 	cout << "1.10 times gacha.\n";
